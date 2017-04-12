@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto|Roboto+Condensed');
+body{	
+	margin: 0;
+	padding: 0;
+	color: #999;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+*{
+	transition: 0.04s;
+	-webkit-transition: 0.04s;
+	-moz-transition: 0.04s;
+}
+
+
+#top-header{
+	background-color: #F8F8F8;
+	padding-top: 10px;
+}
+
+.address {
+
+}
+
+.address li{
+	font-size:13px;
+    margin-right: 15px;
+	
+}
+.address li i {
+    color: #42b061;
+}
+.address li select{
+	border: 0;
+}
+.address li:hover{
+	color: #42b061;}
+.signup{
+	display: inline-block;
+}
+.signup li{
+	color: #42b061;
+	font-size: 16px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.signup li a{
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #999;
+}
+.signup li a:hover{
+	color: #42b061;
+}
+.signup  i{
+	color: #42b061;
+	font-size: 16px;
+}
+
+.signup li span{
+	color: #e1e1e1;
+}
+.social{
+	display:inline-block;
+	margin-left: 60px;
+}
+
+.social li{
+
+}
+.social li a{
+	background: #E1E1E1;
+	color: #42b061;
+	width: 16px;
+	height: 16px;
+	display: block;
+	text-align: center;
+	border-radius:3px;
+	font-size: 12px;
+
+}
+.social li a:hover{
+	background: #42b061;
+	color: #E1E1E1;
+
+}
+ .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 30px 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid rgba(153, 153, 153, 0.31);
+}
+.navbar-brand{
+	height: auto !important;
+	padding: 0;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #999;
+    font-weight: 900;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.navbar-default .navbar-nav>li>a:hover{ color: #42b061;}
+.navbar-default .navbar-nav>li>a:frist-child:after{color:#42b061;}
+
+.search{
+	padding: 8px 15px;
+
+}
+.search li{
+
+
+}
+.search li input{
+	border-radius: 0;
+	width: auto;
+}
+.carousel-caption {
+	text-align: left;
+	left: 12%;
+	top:50%;
+	transform: translateY(-50%);
+
+}
+
+.carousel-caption h4{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 72px;
+	color: #42b061;}
+
+.carousel-caption h2{
+	font-size: 55px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.carousel-caption p{
+	max-width: 570px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:500;
+
+}
+.carousel-caption a{
+
+}
+.btn-custom{
+	text-transform: uppercase;
+	color: #fff;
+	padding: 15px 30px;
+	background: #42b061;
+	margin-right: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+
+}
+.btn-custom:hover{
+	background:#fff;
+	color:#42b061;
+
+}
+.btn-custom last child:hover{
+	background:#fff;
+	color:#42b061;
+}
+#about{
+	padding: 70px 0;
+}
+.heading{
+	margin-bottom: 70px;
+	text-align: center;
+}
+.heading h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	color:black;}
+.heading p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color:#707070;
+	font-weight:500;}
+b, strong {
+    font-size: 18px;
+    color: #42b061;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    word-spacing: 5px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	padding-bottom: 20px;
+	margin-bottom: 4em;}
+
+#about p {
+    padding: 15px 0;
+    font-size: medium;
+    font-weight: 100;
+}
+p {
+    font-size: medium;
+    font-weight: 600;
+}
+#about .btn-custom{
+	text-transform: uppercase;
+	color: #fff;
+	padding: 12px 30px;
+	background: #42b061;
+	margin-right: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+#about .btn-custom:hover{
+	background:#fff;
+	color:#42b061;
+}
+
+/* course */
+
+#course{
+	padding: 70px 0;
+		background-color: #f8f8f8;
+		position: relative;
+
+}
+.course{
+
+}
+
+
+.thumbnail .course{
+	color: #111;
+	padding: 30px 0;
+	background-color: #f8f8f8;
+	text-align: center;
+}
+
+.course img{
+	    height: auto;
+    /* width: 20%; */
+    width: 60px;
+    /* top: 59%; */
+    /* left: 50%; */
+    transform: translate(240%,-10%);
+}
+
+.course h2{
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	color:black;
+	text-align: center;
+}
+
+#course .heading p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px !important;
+	color:#b5b5b5;
+	font-weight:500;
+	text-align: center;
+}
+.thumbnail{
+	position: relative;
+
+}
+.thumbnail:after{
+	font-color: #42b061;
+	position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 5px;
+    background: #42b061;
+    height: 5px;
+    width:100%;
+    transition: all .4s ease;
+    transform: scale(0);
+}
+
+.thumbnail:hover:after{
+width: 100%;
+transform: scale(1);
+}
+
+
+#protfolio .heading {
+	padding: 70px 0;
+}
+
+
+#protfolio .heading p{
+	color:#707070;
+    margin: 20px 250px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.webcode-list{
+display: inline;
+padding: 70px 0;
+}
+.webcode-list li{
+	margin-top: 20px;
+	margin-right: 20px;
+
+}
+.webcode-list li a{
+	font-size: 14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#707070;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+
+#protfloio{
+
+}
+.protfolio{
+    position: relative;
+    
+}
+
+.protfolio a{
+	color: #888;
+    background: #fff;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 0px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    z-index: 2;
+
+}
+	
+
+.protfolio .search {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+transform: translate(-60%,-60%);
+opacity: 0;
+}
+.protfolio .link{
+	position: absolute;
+    top: 60%;
+    left:40%;
+   transform: translate(-40%,-60%);
+   opacity: 0;
+
+}
+
+.protfolio:hover .search{
+	top: 50%;
+    left:60%;
+	transform: translateY(-50%);
+	opacity: 1;
+}
+.protfolio:hover .link{
+	top: 50%;
+    left:40%;
+	transform: translateY(-50%);
+   	opacity: 1;
+}
+.protfolio:after{
+	top:0;
+	left:0;
+	content:"";
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.8);
+	position:absolute;
+	opacity: .4;
+	transition:  all .4s;
+	transform: scale(0);
+
+}
+.protfolio:hover:after{
+	opacity: 1;
+	transform: scale(.9);
+
+}
